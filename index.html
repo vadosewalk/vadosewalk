@@ -159,13 +159,13 @@
   .hero-creative-container {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
     width: 100%;
     max-width: 1200px;
     position: relative;
     z-index: 10;
-    text-align: center;
+    text-align: left;
   }
 
   /* Hero Top Banner Badge */
@@ -316,11 +316,12 @@
     position: relative;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    align-items: flex-start;
+    justify-content: flex-start;
+    text-align: left;
     width: 100%;
     max-width: 900px;
-    margin: 0 auto;
+    margin: 0;
     z-index: 10;
   }
 
@@ -339,41 +340,6 @@
   @keyframes curveWobble {
     0% { transform: translateY(0px) rotate(0deg) scale(1); }
     100% { transform: translateY(-8px) rotate(1deg) scale(1.02); }
-  }
-
-  /* Minimal stars, circles, and futuristic symbols */
-  .typo-symbol {
-    position: absolute;
-    font-family: var(--font-display);
-    color: var(--acid);
-    text-shadow: 0 0 10px var(--acid);
-    pointer-events: none;
-    z-index: 5;
-    animation: floatBadge 4s ease-in-out infinite alternate;
-  }
-  .typo-star-1 {
-    top: 25%;
-    right: 10%;
-    font-size: 1.8rem;
-    animation-delay: 0.5s;
-  }
-  .typo-circle-1 {
-    bottom: 25%;
-    left: 20%;
-    width: 12px;
-    height: 12px;
-    border: 2px solid var(--burn);
-    border-radius: 50%;
-    box-shadow: 0 0 8px var(--burn);
-    animation-delay: 1.2s;
-  }
-  .typo-star-2 {
-    bottom: -15%;
-    right: 28%;
-    font-size: 2.5rem;
-    color: var(--burn);
-    text-shadow: 0 0 12px var(--burn);
-    animation-delay: 0.8s;
   }
 
   /* Futuristic Sticker Badges */
@@ -439,7 +405,8 @@
   /* Centered Typography Rows */
   .centered-row {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
+    text-align: left;
     align-items: center;
     width: 100%;
     font-family: var(--font-display);
@@ -560,7 +527,7 @@
     margin-top: 2rem;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     gap: 2rem;
     z-index: 20;
     position: relative;
@@ -574,7 +541,7 @@
     line-height: 1.75;
     color: rgba(242, 232, 198, 0.8);
     font-family: var(--font-mono);
-    text-align: center;
+    text-align: left;
   }
   .hero-scroll-trigger {
     font-family: var(--font-mono);
@@ -2369,19 +2336,13 @@
       <!-- TYPOGRAPHY COMPOSITION -->
       <div class="centered-brutalist-typo">
 
-        <!-- Outlined Background Typography Layer for Depth -->
-        <div class="bg-outline-text" aria-hidden="true">PRANAV</div>
-
         <!-- Weaving SVG Curved Line Graphic -->
         <svg class="typo-flow-curve" viewBox="0 0 400 200" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path d="M20,100 C130,20 270,180 380,100" stroke="rgba(255, 90, 0, 0.45)" stroke-width="3.5" stroke-linecap="round" />
           <path d="M20,100 C130,20 270,180 380,100" stroke="#F2E8C6" stroke-width="1.5" stroke-dasharray="10 15" stroke-linecap="round" />
         </svg>
 
-        <!-- Minimal futuristic symbols and stars -->
-        <div class="typo-symbol typo-star-1" aria-hidden="true">✦</div>
-        <div class="typo-symbol typo-circle-1" aria-hidden="true"></div>
-        <div class="typo-symbol typo-star-2" aria-hidden="true">✷</div>
+        <!-- Minimal futuristic symbols and stars (removed) -->
 
         <!-- Typography rows -->
         <div class="centered-row centered-row-making">

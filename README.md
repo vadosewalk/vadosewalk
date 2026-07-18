@@ -25,16 +25,11 @@ Focused on building practical engineering skills through system-level learning, 
 
 ### Tools
 
-<p>
-  <img src="https://img.shields.io/badge/C-1f1f1f?style=flat&logo=c&logoColor=white" />
-  <img src="https://img.shields.io/badge/MATLAB-1f1f1f?style=flat&logo=mathworks&logoColor=white" />
-  <img src="https://img.shields.io/badge/Arduino-1f1f1f?style=flat&logo=arduino&logoColor=white" />
-  <img src="https://img.shields.io/badge/JavaScript-1f1f1f?style=flat&logo=javascript&logoColor=white" />
-  <img src="https://img.shields.io/badge/HTML5-1f1f1f?style=flat&logo=html5&logoColor=white" />
-  <img src="https://img.shields.io/badge/CSS3-1f1f1f?style=flat&logo=css3&logoColor=white" />
-  <img src="https://img.shields.io/badge/Git-1f1f1f?style=flat&logo=git&logoColor=white" />
-  <img src="https://img.shields.io/badge/GitHub-1f1f1f?style=flat&logo=github&logoColor=white" />
-</p>
+<div align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=c,matlab,arduino,js,html,css,git,github&theme=dark" height="48" alt="Tools and Languages" />
+  </a>
+</div>
 
 ---
 
@@ -48,6 +43,15 @@ Focused on building practical engineering skills through system-level learning, 
 ---
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=vadosewalk&show_icons=true&theme=default&hide_border=true&title_color=111111&text_color=444444&icon_color=111111" height="150" alt="stats graph" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=vadosewalk&layout=compact&theme=default&hide_border=true&title_color=111111&text_color=444444" height="150" alt="languages graph" />
+  <img src="./assets/stats.svg" height="150" alt="stats graph" />
+  <img src="./assets/top-langs.svg" height="150" alt="languages graph" />
+</div>
+
+<div align="center">
+  <br>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/vadosewalk/vadosewalk/output/github-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/vadosewalk/vadosewalk/output/github-snake.svg">
+    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/vadosewalk/vadosewalk/output/github-snake.svg">
+  </picture>
 </div>
